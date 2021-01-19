@@ -662,4 +662,47 @@ html {
 }
 
 /***********END OF MEDIA QUERIES OF FEATURES**************/
+/**BRAND**/
+.top-brand {
+  width: 100%;
+}
+
+.top-brand .container h1 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.top-brand .container .top-brand-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+.top-brand .container .top-brand-wrap .top-brand-box {
+  width: 16%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.top-brand .container .top-brand-wrap .top-brand-box img {
+  opacity: 0.5;
+  width: 100%;
+  height: auto;
+}
+
+.top-brand .container .top-brand-wrap .top-brand-box :hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 425px) {
+  .top-brand .container h1 {
+    font-size: 1rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
